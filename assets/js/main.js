@@ -220,7 +220,7 @@
             nav: false,
             dots: true,
             autoplay: true,
-            items: 1,
+            items: 3,
             navText: [
                 "<i class='fa fa-angle-left'></i>",
                 "<i class='fa fa-angle-right'></i>"
@@ -350,6 +350,32 @@
                 }
             }
         });
+        /*==========================================
+        # Team Carousel
+        ===========================================*/
+        $(document).ready(function(){
+            $(document).ready(function(){
+                $('.team-items').owlCarousel({
+                  loop: true,
+                  margin: 10,
+                  nav: true,
+                  navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+                  autoplay: false,
+                  autoplayTimeout: 2000,
+                  responsive: {
+                    0: {
+                      items: 1
+                    },
+                    600: {
+                      items: 2
+                    },
+                    1000: {
+                      items: 3
+                    }
+                  }
+                });
+              });
+          });
 
 
         /* ==================================================

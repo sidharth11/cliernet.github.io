@@ -5110,3 +5110,55 @@ footer .f-items .f-item.link li:last-child {
     height: auto;
     z-index: -1;
 }
+.team-items .owl-nav, .team-items .owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.team-items .owl-dot {
+  display: inline-block;
+  margin: 5px;
+  width: 12px;
+  height: 12px;
+  background-color: #ddd;
+  border-radius: 50%;
+}
+.team-items .owl-dot.active {
+  background-color: #333;
+}
+.owl-nav {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  background-color: #ffffff;
+  color: #ad6161;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.owl-nav .owl-next{
+  position: absolute;
+  background-color: #f5f5ff;
+  color: #ad6161;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.owl-nav .owl-prev {
+  left: -32px;
+}
+.owl-nav .owl-next {
+  right: -32px;
+}
+.owl-nav .owl-prev:hover {
+  background-color: #fafafa;
+}
+
+.owl-nav .owl-next:hover {
+  background-color: #f5f5ff;
+}
+
