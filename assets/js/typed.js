@@ -444,7 +444,7 @@ jQuery(document).on('ready', function() {
             # Typed Text Init Init
         ===============================================*/
         jQuery(".element").typed({
-            strings: ["Where Innovation Meets Communication", "Marketing Expert"],
+            strings: ["Where Innovation Meets Communication"],
             typeSpeed: 10,
             loop: true,
             backDelay: 2000
