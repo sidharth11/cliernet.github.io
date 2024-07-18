@@ -5161,4 +5161,21 @@ footer .f-items .f-item.link li:last-child {
 .owl-nav .owl-next:hover {
   background-color: #f5f5ff;
 }
+.shadow-box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 50px 10px 0;
+}
+
+.shadow-box img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.alignment{
+  text-align: justify;
+}
 
