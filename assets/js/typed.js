@@ -444,12 +444,7 @@ jQuery(document).on('ready', function() {
             # Typed Text Init Init
         ===============================================*/
         jQuery(".element").typed({
-            strings: [
-				"From Complex to Clear",
-				"Transforming Complexity into Clarity",
-				"Where Expertise Meets Precision Documentation",
-				"Precision in <span style='color: red;'>Content</span> , Excellence in <span style='color: red;'> Documentation </span>"
-			],
+            strings: ["Where Expertise Meets Precision Documentation"],
             typeSpeed: 10,
             loop: true,
             backDelay: 2000
